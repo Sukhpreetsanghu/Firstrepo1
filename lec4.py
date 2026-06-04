@@ -27,15 +27,17 @@ l1 = [12,45,34,78,23]
 
 a =[2,3,4,5]
 b =[1,2,3,4,7]
-# for i,j in zip(a,b):
-#     print(i,"=",j)
+for i,j in zip(a,b):
+    print(i,"=",j)
 
 #string list
 
-# l=["Hello","How","Are","you"]
-# print(" ".join(l))
+l=["Hello","How","Are","you"]
+print(" ".join(l))
 new =[]
 for i in a:
     if i in b:
-       
+        new.append(i)
+print(new)
 
+ 
